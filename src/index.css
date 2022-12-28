@@ -26,8 +26,9 @@ body{
   flex-direction: column;
   width: 100%;
   max-width: 300px;
-  background-color: black;
+  background-color: #5d977494;
   padding: 15px;
+  height: fit-content;
 }
 
 .flexbox .board .card{
@@ -35,4 +36,29 @@ body{
   background-color: aliceblue;
   cursor: pointer;
   margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  color: #121e1794;
+}
+
+.flexbox .board .non-draggable-card{
+  padding: 15px 25px;
+  background-color: aliceblue;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  color: #c3dfca;
+}
+
+.flexbox .title{
+  color: aliceblue;
+  font-size: xx-large;
+  font-weight: 700;
+  padding: inherit;
+  display: flex;
+  justify-content: center;
 }
